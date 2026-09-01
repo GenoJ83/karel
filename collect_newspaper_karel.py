@@ -40,4 +40,4 @@ def main():
 
 if __name__ == "__main__":
     # Note: make sure you have CollectNewspaperKarel.w or similar world file
-    run_karel_program()
+    run_karel_program(main_func=main)

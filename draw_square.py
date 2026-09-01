@@ -20,5 +20,4 @@ def main():
 
 if __name__ == "__main__":
     # Ensure Karel has infinite beepers to draw the square
-    # We can pass an empty world or default world with infinite beepers
-    run_karel_program()
+    run_karel_program(world_text="Dimension: (10, 10)\nKarel: (1, 1); east\nBeeperBag: INFINITY", main_func=main)
