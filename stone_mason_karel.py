@@ -50,5 +50,4 @@ def main():
             break
 
 if __name__ == "__main__":
-    # Note: Replace 'SampleQuad1' with the name of your assignment's world file if needed
-    run_karel_program(world_url="SampleQuad1", main_func=main)
+    run_karel_program("stone_mason_karel")

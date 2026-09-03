@@ -48,4 +48,4 @@ def main():
                     break
 
 if __name__ == "__main__":
-    run_karel_program(world_text="Dimension: (8, 8)\nKarel: (1, 1); east\nBeeperBag: INFINITY", main_func=main)
+    run_karel_program("checkerboard_karel")

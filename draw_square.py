@@ -19,5 +19,4 @@ def main():
         turn_left()
 
 if __name__ == "__main__":
-    # Ensure Karel has infinite beepers to draw the square
-    run_karel_program(world_text="Dimension: (10, 10)\nKarel: (1, 1); east\nBeeperBag: INFINITY", main_func=main)
+    run_karel_program("8x8")
